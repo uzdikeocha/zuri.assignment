@@ -1,0 +1,414 @@
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0594d6b6;
+    color: #F5F5F5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+ .logo {
+    font-weight: 900;
+    font-size: 35px;
+    color:  #edf0f1; 
+    cursor: pointer; 
+    letter-spacing: 1px;
+ }
+
+.logo-1 {
+    color: #edf0f1;
+}
+
+.mobile {
+    display: none;
+}
+
+li.nav {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav a {
+    text-decoration: none;
+    color: #edf0f1;
+    font-weight: 600;
+    margin: 0 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #e70f94;
+
+}
+
+nav a:active {
+    color: #e70f94;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #035880;
+    padding: 20px 10%;
+}
+
+section, section.send-message {
+    background-color: #035880;
+}
+
+a {
+    text-decoration: none;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+  padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+img.hero {
+    max-width: 400px;
+    height: auto;
+    object-fit: 100%;
+}
+
+p.Hi {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+p.name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+}
+
+p.info {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.left {
+    padding-top: 150px;
+}
+
+button {
+    display: inline-flex;
+    background-color:  #06a89b;
+    align-items: center;
+    padding: 12px 25px;
+    min-height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    color: #edf0f1;
+    cursor: pointer;
+}
+
+button.sec {
+    margin-right: 20px;
+
+}
+
+button.projects {
+    background-color: transparent;
+    border: 2px solid  #06a89b;;
+    color: #edf0f1;
+
+   
+}
+
+button img {
+    margin-left: 5px;
+}
+
+.container-btn {
+    padding: 20px 0px 0px 0px;
+}
+
+
+section.about {
+    margin-top: 90px;
+    padding: 5%;
+    
+}
+
+h2.about {
+    color: #06a89b;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+article {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.container-abt {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.right {
+  text-align: center;
+  width: 50%;
+}
+
+.abt {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #06a89b;
+    padding-right: 15px;
+}
+.abt-2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.container-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+}
+
+.block {
+    width: 256px;
+    height: 254px;
+    background-color: #BDBDBD;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+p.about {
+    font-weight: 600;
+    font-size: 16;
+    text-transform: uppercase;
+}
+
+
+section.services, section.projects {
+    padding: 5%;
+    
+}
+
+h2.services {
+    color: #0da6e2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.block-1, .block-2 {
+    width: 450px;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid white;
+}   
+    
+
+
+.block-2 {
+    border: 2px solid #9a97ad; 
+}
+
+
+p.services {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px
+}
+
+.container-pro {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 60%;
+}
+
+.project-blk {
+    width: 343px;
+    height: 380px;
+    background-color: #31313F;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+  margin: 10px;
+           
+}
+
+.pro-img {
+    width: 313px;
+    height: 173px;
+    border-radius: 8px;
+}
+
+h3.services {
+    color: #06a89b;
+    text-align: left;
+}
+
+.pro-p {
+    text-align: left;
+}
+
+button.pri-1 {
+
+    background-color:#06a89b;
+    align-items: center;
+    
+    min-height: 1%;
+    font-weight: 145;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 0;
+    color: #edf0f1;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button.pri-2 {
+    background-color: #06a89b;;
+    align-items: center;
+    margin-left: 5px;
+    min-height: 1%;
+    font-weight: 145;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid#06a89b;;
+    background-color: #04045e;
+    color: #edf0f1;
+    cursor: pointer;
+}
+
+section.others {
+    padding-bottom: 15%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+li.hobbies {
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+li.hobbies::before {
+    content: "• ";
+    color: #06a89b;
+    font-size: 20px;
+}
+
+
+
+footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+p.footer {
+    text-align: center;
+}
+
+
+section.send-message {
+    margin-top: 100px;
+    padding: 5%;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #31313F;
+    border-radius: 8px;
+    padding: 5%;
+    width: 100%;
+}
+
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input.send-btn {
+    border: 0;
+    background-color: #06a89b;;
+    align-items: center;
+    padding: 12px 25px;
+    min-height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #edf0f1;
+    cursor: pointer;
+}
+
+.text {
+    padding: 5%;
+    width: 100%;
+}
+
+.msg-2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.msg-1 {
+    color:#06a89b;
+}
+
+
+
